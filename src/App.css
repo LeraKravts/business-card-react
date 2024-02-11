@@ -31,7 +31,7 @@ body {
 
 .about-section > p {
   text-align: left;
-  padding: 5px;
+  padding: 10px;
   margin: 0;
 }
 
@@ -41,8 +41,45 @@ body {
   
 }
 
+.link-container{
+  display: flex;
+  margin-left: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: center;
+  
+  
+}
+
+.link-cont {
+  height: 34px;
+  width: 115px;
+  background: #5093E2;
+  border-radius: 3px;
+  display: flex;
+  color: #374151;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.email-cont {
+  background-color: #F5F5F5;
+
+  margin-right: 10px;
+}
+
+.link-cont:hover{
+  background-color: pink;
+  cursor: pointer;
+}
+
+
+
+
 h2, .job{
   color: #F3BF99;
+ 
 
 }
 
@@ -60,6 +97,11 @@ h2, .job{
 .icon-container > a {
   padding: 10px;
 
+}
+
+.icon-container > a:hover {
+  cursor: pointer;
+  
 }
 
 .info-container, .interests-container {

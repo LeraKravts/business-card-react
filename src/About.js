@@ -11,6 +11,14 @@ export default function About(){
         <p className="webSite">portfolio.website </p>
        
         <div className="info-container"></div>
-        <div class="link-container"></div>
+        <div class="link-container">
+            <div className="link-cont email-cont">
+                <a className="email">email</a></div>
+
+            <div className="link-cont">
+
+                <a className="linkedIn">LinkedIn</a>
+            </div>
+        </div>
     </div>)
 }
