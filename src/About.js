@@ -13,11 +13,11 @@ export default function About(){
         <div className="info-container"></div>
         <div class="link-container">
             <div className="link-cont email-cont">
-                <a className="email">email</a></div>
+                <a className="email" href='mailto:lera.gor@inbox.ru'>email</a></div>
 
             <div className="link-cont">
 
-                <a className="linkedIn">LinkedIn</a>
+                <a className="linkedIn"href='https://ru.linkedin.com/in/valeria-kravtsova-a1a1421b9?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Fwww.linkedin.com%2F'>LinkedIn</a>
             </div>
         </div>
     </div>)

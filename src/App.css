@@ -57,10 +57,16 @@ body {
   background: #5093E2;
   border-radius: 3px;
   display: flex;
-  color: #374151;
+  
   align-items: center;
   justify-content: center;
+  
  
+}
+
+a {
+  text-decoration: none;
+  color: #374151;
 }
 
 .email-cont {
@@ -101,7 +107,7 @@ h2, .job{
 
 .icon-container > a:hover {
   cursor: pointer;
-  
+
 }
 
 .info-container, .interests-container {
