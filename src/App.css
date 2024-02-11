@@ -2,38 +2,69 @@
 body {
   background-color: rgb(33, 24, 24);
   color:antiquewhite;
-  width: 200px;
+  width: 380px;
+  font-family: Inter, sans-serif;
+  line-height: 140%;
 
 
 }
 
 .img-container {
-  height: 30vh;
-  width: 30vh;
+  height: 40vh;
+  width: 40vh;
   display: flex;
   margin-bottom: 10px;
   background-image: url('../public/valeriaImg.jpeg');
   background-size: cover;
   background-position: center;
 
-
- 
- 
 }
 
 
 .about-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   
 
 }
 
 .about-section > p {
-  text-align: center;
+  text-align: left;
   padding: 5px;
   margin: 0;
 }
 
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+h2, .job{
+  color: #F3BF99;
+
+}
+
+.job {
+  font-size: 13px;
+  width: 150px;
+  line-height: 140%;
+}
+
+.site {
+  color: #F5F5F5;
+  font-size: 13px;;
+}
+
+.icon-container > a {
+  padding: 10px;
+
+}
+
+.info-container, .interests-container {
+  text-align: left;
+  margin-left: 10px;
+
+}
 
